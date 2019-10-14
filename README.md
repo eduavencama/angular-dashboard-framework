@@ -5,11 +5,11 @@ Universidad de los Andes, Bogotá, Colombia
 {ea.avendano, cd.gutierrez, ci.zubieta}@uniandes.edu.co 
 Fecha de presentación: Octubre 4 de 2016 
   
-## Business Comprehension:  
+## Business Comprehension: 
  
 ### About the company
  
-AGZ is a multinational what work in the field of the construction and instalation of Industries projets.
+AGZ is a multinational that works in the field of construction and installation of Industry projets.
 
 ### Direct Client
  
@@ -19,34 +19,36 @@ Our client is the PMO (Project Management Office). One of its main tasks is to p
 
 In order to guarantee and control each of its projects the **PMO** must generate weekly and monthly reports from different departments to constantly verify the progress of the project and the administration of Money and Activities in each area.
 
-These reports should be unified from different sources and formats of data that each department handles to be presented in a single format that is directed to the management area. Based on these unified final reports, management makes adjustments and restructuring decisions in each project, if necessary. This final format should be clear, understandable and should highlight the characteristics most relevant to the project.
+These reports should be unified from different sources and formats of data that each department collects to be presented in a single format directed to the management area. Based on these unified final reports, management makes adjustments and restructuring decisions in each project. This final format should be clear, understandable and should highlight the most relevant characteristics.
 
-Currently the process of **verification and unification of the sources is done by hand** through multiple tables of Excel, on the other hand, part of the information is processed by software called **Primavera** by **Oracle** that allows the administration and control of multiple projects, for this case, the benefit provided by the tool is not relevant, because the client **does not handle multiple projects at the same time**. Primavera also generates a kind of dashboard that is **very restrictive in terms of displaying the parameters of interest of the client**. 
+Currently the process of **verification and unification of the sources is done by hand** through multiple Excel spreadsheets, on the other hand, part of the information is processed by software called **Primavera** by **Oracle** that allows the administration and control of multiple projects. For this case, the benefit provided by the tool is not relevant, because the client **does not handle multiple projects at the same time**. Primavera also generates a kind of dashboard that is **very restrictive in terms of displaying the parameters of interest of the client**. 
 
 The client has been working on improving the process of generating the reports of:
-- Activity and Performance.
-- Costs. 
+- Activity and Performance
+- Costs 
  
-For this purpose, it has been working with multiple departments and with management to determine the relevant data and the presentation of the data for each of the reports. Thanks to this work we achieved a dashboard of **activity and performance** debugged with only the parameters of interest to the company. For this dashbord the client needs to improve the way of presentation and navigation, as currently **must spend time in the generation of the dashboard whenever it requires generating the weekly and monthly report for each project**.
+For this purpose, it has been working with multiple departments and with management to determine the relevant data and the presentation of the data for each of the reports. Thanks to this work we achieved a dashboard of **activity and performance** debugged with only the parameters of interest to the company. For this dashbord the client needs to improve the way of presentation and navigation, as currently he **must spend time in the generation of the dashboard whenever it requires generating the weekly and monthly report for each project**.
 
-On the Cost dashboard the client is in the process of debugging and coordination between departments and management. **At the moment they have a base of the board of costs that is not definitive**, reason why they require a proposal to represent the costs that implies each project.  In addition, he told us that with the current process it takes a lot of effort and time **to detect deviations of time and money in the execution of each one of the projects**.
+On the Cost dashboard the client is in the process of debugging and coordinating between departments and management. **At the moment they have a base of the board of costs that is not definitive**, reason why they require a proposal to represent the costs that implies each project.  In addition, he told us that with the current process it takes a lot of effort and time **to detect deviations of time and money in the execution of each one of the projects**.
  
 ## Characterization of the Data 
+
 ### What 
+
 The dataset is type **table** (All tables are in an Excel workbook that was obtained from the "Spring" program).
-As for the **attributes**, most are of a sequential quantitative type. But there are also some with a special semantics (use a temporal semantics), which are used to identify a date (day, month and year). 
+As for the **attributes**, most are of a sequential quantitative type. But there are also some with a special semantics used to identify a date (day, month and year). 
  
 ### Why 
 
 Several sections of interest were identified: Earned value , man hours and productivity:
 
 #### Earned Value 
-- **T1.** *Identify* what are the deviations in * the areas * that most influence the performance of the project.
+- **T1.** *Identify* what are the deviations in * the areas * that the most influence the performance of the project.
 - **T2.** *Compare* PV *, * EV * and * AC * distribution for the areas of interest in the project.
 - **T3.** *Identify* in a specific week the values for * PV *, * EV * and * AC *.
  
 #### Man Hours 
-- **T4.** *Present* what are the hours consumed both directly and indirectly in the project by the people.
+- **T4.** *Present* what are the hours consumed both directly and indirectly by people in the project.
 - **T5.** *Compare* Scheduled Man Hours with Reals for each period.
  
 #### Productivity
